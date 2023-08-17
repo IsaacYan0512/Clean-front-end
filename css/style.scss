@@ -1,0 +1,155 @@
+@import "library.scss";
+
+
+.hero{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+
+    
+    
+
+    .bgimg-container{
+        .overlay{
+            background-color: var(--secondary-color);
+            position: absolute;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            width: 100%;
+            height: 100%;
+            opacity: 0.6;
+            z-index: -998;
+        }
+        .bgimg {
+            // background-image: url(../images/slideshow/afro-woman-holding-bucket-with-cleaning-items.jpg);
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            width: 100%;
+            min-height: 800px;
+            z-index: -999;
+            position: relative;
+            overflow: hidden;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .img-1{
+            background-image: url(../images/slideshow/afro-woman-cleaning-window-with-rag-home.jpg);
+        }
+
+
+        .img-2{
+            background-image: url(../images/slideshow/afro-woman-holding-bucket-with-cleaning-items.jpg);
+        }
+
+
+        .img-3{
+            background-image: url(../images/slideshow/unrecognizable-cleaner-walking-into-hotel-room-with-tools-detergents.jpg);
+        }
+
+
+        .onimg-info{
+            position: absolute;
+            top: 50%; 
+            left: 60%; 
+            transform: translate(-50%, -50%); 
+
+            .headline{
+                font-size: 4vw;
+                padding-bottom: 15px;
+            }
+
+            .intro-btn{
+                display: inline-block;
+                padding: 1.5vw 3vw;
+                border-radius: 50vw; 
+                background-color: #4f83d1; 
+                color: white; 
+                text-align: center;
+                text-decoration: none;
+                transition: background-color 0.3s ease; 
+            }
+            .intro-btn:hover{
+                background-color: #7cb8eb; 
+            }
+
+            .service-btn{
+                display: inline-block;
+                padding: 1.5vw 3vw;
+                border-radius: 50vw; 
+                background-color: #4f83d1; 
+                color: white; 
+                text-align: center;
+                text-decoration: none;
+                transition: background-color 0.3s ;
+            }
+            .service-btn:hover{
+                background-color: #7cb8eb; 
+            }
+        }
+    }
+}
+
+
+.intro-card {
+    max-width: 1200px;
+    min-height: 400px;
+    margin: 0 auto;
+    position: relative;
+    .container{
+        display: flex;
+        flex-direction: row;
+        height: 370px;
+        .card-left{
+
+            .service{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                margin-top: 40px;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+
+            .para1{
+                max-width: 100%;
+                margin: 0 20px;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                margin-left: 100px;
+                margin-right: 40px;
+            }
+
+            .para2{
+                max-width: 100%;
+                margin: 0 20px;
+                margin-top: 40px;
+                margin-left: 100px;
+                margin-right: 40px;
+            }
+        }
+
+        .card-right{
+            .two-pepo{
+                width: 600px;
+                
+            }
+            .contact{
+                display: inline-block;
+                flex-direction: column;
+                position: relative;
+                bottom: 155px;
+                left: 350px;
+                padding: 40px 40px;
+                background-color: #4f83d1;
+                color: #ffffff;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+
