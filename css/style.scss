@@ -7,9 +7,6 @@
     max-height: 100%;
     margin: 0 auto;
 
-    
-    
-
     .bgimg-container{
         .overlay{
             background-color: var(--secondary-color);
@@ -103,7 +100,7 @@
         display: flex;
         flex-direction: row;
         height: 370px;
-        .card-left{
+        .card-text{
 
             .service{
                 display: flex;
@@ -132,7 +129,7 @@
             }
         }
 
-        .card-right{
+        .card-img{
             .two-pepo{
                 width: 600px;
                 
