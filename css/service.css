@@ -372,7 +372,7 @@ footer {
   height: 400px;
 }
 
-footer .container .first-line {
+footer .container .row {
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * .5);
   padding-left: calc(var(--bs-gutter-x) * .5);
@@ -382,27 +382,27 @@ footer .container .first-line {
   justify-content: start;
 }
 
-footer .container .first-line .logo {
+footer .container .row .logo {
   margin-left: 60px;
 }
 
-footer .container .first-line .menu-link {
+footer .container .row .menu-link {
   display: flex;
   flex-direction: row;
   padding-left: 40px;
   padding-top: 40px;
 }
 
-footer .container .first-line .menu-link .link {
+footer .container .row .menu-link .link {
   list-style: none;
 }
 
-footer .container .first-line .menu-link .link .link-to {
+footer .container .row .menu-link .link .link-to {
   text-decoration: none;
   padding: 30px;
 }
 
-footer .container .second-part {
+footer .container .info-part {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
@@ -413,19 +413,19 @@ footer .container .second-part {
   margin: auto 120px;
 }
 
-footer .container .second-part .service-intro {
+footer .container .info-part .service-intro {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-footer .container .second-part .service-intro .footer-menu-title {
+footer .container .info-part .service-intro .footer-menu-title {
   margin-bottom: 20px;
   margin-right: 15px;
 }
 
-footer .container .second-part .service-intro .service-list {
+footer .container .info-part .service-intro .service-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -433,29 +433,29 @@ footer .container .second-part .service-intro .service-list {
   flex-wrap: wrap;
 }
 
-footer .container .second-part .service-intro .service-list .services {
+footer .container .info-part .service-intro .service-list .services {
   list-style: none;
 }
 
-footer .container .second-part .service-intro .service-list .services .service {
+footer .container .info-part .service-intro .service-list .services .service {
   text-decoration: none;
 }
 
-footer .container .second-part .office-info .footer-menu-title {
+footer .container .info-part .office-info .footer-menu-title {
   margin-bottom: 20px;
 }
 
-footer .container .second-part .office-info .office {
+footer .container .info-part .office-info .office {
   list-style: none;
 }
 
-footer .container .second-part .service-hours {
+footer .container .info-part .service-hours {
   display: flex;
   justify-content: center;
   align-items: start;
   flex-direction: column;
 }
 
-footer .container .second-part .service-hours .service-hor {
+footer .container .info-part .service-hours .service-hor {
   margin-bottom: 20px;
 }

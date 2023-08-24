@@ -372,7 +372,7 @@ footer {
   height: 400px;
 }
 
-footer .container .first-line {
+footer .container .row {
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * .5);
   padding-left: calc(var(--bs-gutter-x) * .5);
@@ -382,27 +382,27 @@ footer .container .first-line {
   justify-content: start;
 }
 
-footer .container .first-line .logo {
+footer .container .row .logo {
   margin-left: 60px;
 }
 
-footer .container .first-line .menu-link {
+footer .container .row .menu-link {
   display: flex;
   flex-direction: row;
   padding-left: 40px;
   padding-top: 40px;
 }
 
-footer .container .first-line .menu-link .link {
+footer .container .row .menu-link .link {
   list-style: none;
 }
 
-footer .container .first-line .menu-link .link .link-to {
+footer .container .row .menu-link .link .link-to {
   text-decoration: none;
   padding: 30px;
 }
 
-footer .container .second-part {
+footer .container .info-part {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
@@ -413,19 +413,19 @@ footer .container .second-part {
   margin: auto 120px;
 }
 
-footer .container .second-part .service-intro {
+footer .container .info-part .service-intro {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-footer .container .second-part .service-intro .footer-menu-title {
+footer .container .info-part .service-intro .footer-menu-title {
   margin-bottom: 20px;
   margin-right: 15px;
 }
 
-footer .container .second-part .service-intro .service-list {
+footer .container .info-part .service-intro .service-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -433,30 +433,30 @@ footer .container .second-part .service-intro .service-list {
   flex-wrap: wrap;
 }
 
-footer .container .second-part .service-intro .service-list .services {
+footer .container .info-part .service-intro .service-list .services {
   list-style: none;
 }
 
-footer .container .second-part .service-intro .service-list .services .service {
+footer .container .info-part .service-intro .service-list .services .service {
   text-decoration: none;
 }
 
-footer .container .second-part .office-info .footer-menu-title {
+footer .container .info-part .office-info .footer-menu-title {
   margin-bottom: 20px;
 }
 
-footer .container .second-part .office-info .office {
+footer .container .info-part .office-info .office {
   list-style: none;
 }
 
-footer .container .second-part .service-hours {
+footer .container .info-part .service-hours {
   display: flex;
   justify-content: center;
   align-items: start;
   flex-direction: column;
 }
 
-footer .container .second-part .service-hours .service-hor {
+footer .container .info-part .service-hours .service-hor {
   margin-bottom: 20px;
 }
 
@@ -473,19 +473,19 @@ footer .container .second-part .service-hours .service-hor {
   margin-top: 40px;
 }
 
-.contact .container .cards .left-card {
+.contact .container .cards .info-card {
   width: 400px;
   margin-right: 140px;
   margin-bottom: 80px;
   max-width: 100%;
 }
 
-.contact .container .cards .left-card h2 {
+.contact .container .cards .info-card h2 {
   display: block;
   margin-bottom: 30px;
 }
 
-.contact .container .cards .left-card p {
+.contact .container .cards .info-card p {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -498,7 +498,7 @@ footer .container .second-part .service-hours .service-hor {
   font-weight: var(--font-weight-normal);
 }
 
-.contact .container .cards .left-card .contact-infos {
+.contact .container .cards .info-card .contact-infos {
   background: var(--white-color);
   display: inline-block;
   margin-top: 20px;
@@ -508,25 +508,25 @@ footer .container .second-part .service-hours .service-hor {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
-.contact .container .cards .left-card .contact-infos a {
+.contact .container .cards .info-card .contact-infos a {
   text-decoration: none;
   color: var(--p-color);
 }
 
-.contact .container .cards .left-card .contact-infos a:hover {
+.contact .container .cards .info-card .contact-infos a:hover {
   color: #7cb8eb;
 }
 
-.contact .container .cards .left-card .contact-infos .title {
+.contact .container .cards .info-card .contact-infos .title {
   margin-bottom: 1.5rem !important;
 }
 
-.contact .container .cards .left-card .contact-infos .contact-info {
+.contact .container .cards .info-card .contact-infos .contact-info {
   margin-bottom: 1rem;
   color: var(--p-color);
 }
 
-.contact .container .cards .right-card {
+.contact .container .cards .form-card {
   width: 400px;
   height: 365px;
   background: var(--white-color);
@@ -537,27 +537,27 @@ footer .container .second-part .service-hours .service-hor {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
-.contact .container .cards .right-card .form-header {
+.contact .container .cards .form-card .form-header {
   margin-bottom: 1.5rem !important;
 }
 
-.contact .container .cards .right-card .form-body {
+.contact .container .cards .form-card .form-body {
   display: block;
 }
 
-.contact .container .cards .right-card .form-body .row {
+.contact .container .cards .form-card .form-body .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
 }
 
-.contact .container .cards .right-card .form-body .row .cst-info {
+.contact .container .cards .form-card .form-body .row .cst-info {
   flex: 0 0 auto;
   width: 50%;
 }
 
-.contact .container .cards .right-card .form-body .row .cst-info .client-info {
+.contact .container .cards .form-card .form-body .row .cst-info .client-info {
   color: var(--p-color);
   margin-bottom: 24px;
   padding-top: 13px;
@@ -568,7 +568,7 @@ footer .container .second-part .service-hours .service-hor {
   text-align: center;
 }
 
-.contact .container .cards .right-card .form-body .form-select {
+.contact .container .cards .form-card .form-body .form-select {
   display: block;
   margin-top: 10px;
   margin-bottom: 40px;
@@ -581,7 +581,7 @@ footer .container .second-part .service-hours .service-hor {
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.contact .container .cards .right-card .form-body .message {
+.contact .container .cards .form-card .form-body .message {
   display: block;
   width: 100%;
   height: 80px;
@@ -590,13 +590,13 @@ footer .container .second-part .service-hours .service-hor {
   border: 1px solid lightgray;
 }
 
-.contact .container .cards .right-card .form-body .btn-container {
+.contact .container .cards .form-card .form-body .btn-container {
   display: flex;
   justify-content: center;
   align-items: end;
 }
 
-.contact .container .cards .right-card .form-body .btn-container .form-control {
+.contact .container .cards .form-card .form-body .btn-container .form-control {
   padding-top: 13px;
   padding-bottom: 13px;
   width: 200px;
