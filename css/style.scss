@@ -16,11 +16,20 @@
             height: 100%;
             opacity: 0.6;
             z-index: -998;
-            @media (max-width: 976px) {
-                width: 260vw;
+            @media screen and (max-width: 1440px) {
+                max-width: 1320px;
             }
-            @media (max-width: 830px) {
-                width: 192.5vh;
+            @media screen and (max-width: 1200px) {
+                max-width: 1140px;
+            }
+            @media screen and (max-width: 992px) {
+                max-width: 960px
+            }
+            @media screen and (max-width: 768px) {
+                max-width: 720px;
+            }
+            @media screen and (max-width: 576px) {
+                max-width: 540px;
             }
         }
         .bgimg {
@@ -35,15 +44,21 @@
             overflow: hidden;
             opacity: 0;
             transition: opacity 0.5s ease-in-out;
-
-            @media (max-width: 976px) {
-                /* iPhone 13及以下尺寸的屏幕上的样式 */
-                width: 300vw;
+            @media screen and (max-width: 1440px) {
+                max-width: 1320px;
             }
-            @media (max-width: 830px) {
-                width: 192.5vh;
+            @media screen and (max-width: 1200px) {
+                max-width: 1140px;
             }
-
+            @media screen and (max-width: 992px) {
+                max-width: 960px
+            }
+            @media screen and (max-width: 768px) {
+                max-width: 720px;
+            }
+            @media screen and (max-width: 576px) {
+                max-width: 540px;
+            }
         }
 
         .img-1{
@@ -59,7 +74,6 @@
         .img-3{
             background-image: url(../images/slideshow/unrecognizable-cleaner-walking-into-hotel-room-with-tools-detergents.jpg);
         }
-
 
         .onimg-info{
             position: absolute;
@@ -99,13 +113,14 @@
             .service-btn:hover{
                 background-color: #7cb8eb; 
             }
+            
         }
     }
 }
 
 
 .intro-card {
-    max-width: 1200px;
+    // max-width: 1200px;
     min-height: 400px;
     margin: 0 auto;
     position: relative;
@@ -145,7 +160,7 @@
         .card-img{
             .two-pepo{
                 width: 600px;
-                
+                position: relative;
             }
             .contact{
                 display: inline-block;
@@ -158,6 +173,39 @@
                 color: #ffffff;
                 border-radius: 20px;
             }
+            @media screen and (max-width: 1440px) {
+                width: 1320px;
+            }
+            @media screen and (max-width: 1200px) {
+                width: 1140px;
+            }
+            @media screen and (max-width: 992px) {
+                width: 960px
+            }
+            @media screen and (max-width: 768px) {
+                width: 720px;
+            }
+            @media screen and (max-width: 576px) {
+                width: 540px;
+            }
+        }
+
+        @media screen and (max-width: 1440px) {
+            max-width: 1320px;
+        }
+        @media screen and (max-width: 1200px) {
+            max-width: 1140px;
+        }
+        @media screen and (max-width: 992px) {
+            max-width: 960px
+        }
+        @media screen and (max-width: 768px) {
+            max-width: 720px;
+            flex-wrap: wrap;
+            min-height: 950px;
+        }
+        @media screen and (max-width: 576px) {
+            max-width: 540px;
         }
     }
 }

@@ -15,7 +15,7 @@
   --p-color: #717275;
   --border-color: #e9eaeb;
   --link-hover-color: #4f83d1;
-  --body-font-family: 'Poppins', sans-serif;
+  --body-font-family: "Poppins", sans-serif;
   --h1-font-size: 5vh;
   --h2-font-size: 46px;
   --h3-font-size: 32px;
@@ -61,20 +61,20 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 13,110,253;
-  --bs-secondary-rgb: 108,117,125;
-  --bs-success-rgb: 25,135,84;
-  --bs-info-rgb: 13,202,240;
-  --bs-warning-rgb: 255,193,7;
-  --bs-danger-rgb: 220,53,69;
-  --bs-light-rgb: 248,249,250;
-  --bs-dark-rgb: 33,37,41;
-  --bs-white-rgb: 255,255,255;
-  --bs-black-rgb: 0,0,0;
-  --bs-body-color-rgb: 33,37,41;
-  --bs-body-bg-rgb: 255,255,255;
-  --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --bs-primary-rgb: 13, 110, 253;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 220, 53, 69;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
@@ -153,40 +153,62 @@ h6 {
 }
 
 .info-bar {
-  padding: 15px;
-  background-color: var(--primary-color);
-}
-
-@media (max-width: 976px) {
-  .info-bar {
-    width: 216.5vh;
-  }
-}
-
-@media (max-width: 830px) {
-  .info-bar {
-    width: 190vh;
-  }
+  background: var(--primary-color);
+  position: relative;
+  z-index: 22;
+  padding: 15px 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .info-bar .row {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: space-between;
+  align-items: center;
   color: var(--white-color);
   font-size: var(--copyright-font-size);
 }
 
-.info-bar .row .info.name {
-  padding-left: 10%;
+.info-bar .row .info {
+  padding: 0 20px;
 }
 
-.info-bar .row .info.wktime {
-  padding-left: 50px;
+@media screen and (max-width: 1440px) {
+  .info-bar {
+    max-width: 1320px;
+  }
 }
 
-.info-bar .row .info.phone {
-  padding-left: 50%;
+@media screen and (max-width: 1200px) {
+  .info-bar {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .info-bar {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info-bar {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .info-bar {
+    max-width: 540px;
+  }
+}
+
+@media screen and (max-width: 522px) {
+  .info.wktime {
+    display: none;
+    /* 隐藏.info.wktime元素 */
+  }
 }
 
 .logo {
@@ -197,11 +219,71 @@ h6 {
   padding: 15px;
 }
 
+@media screen and (max-width: 1440px) {
+  .logo {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .logo {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    max-width: 540px;
+  }
+}
+
 .navbar .container {
   display: flex;
   justify-content: space-between;
   position: absolute;
   width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+  .navbar .container {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar .container {
+    max-width: 540px;
+  }
 }
 
 .navbar .container .logo {
@@ -228,18 +310,73 @@ h6 {
   font-weight: var(--font-weight-light);
 }
 
-.navbar .container .links .navber-nav {
+.navbar .container .links .navbar-nav {
   display: flex;
   flex-direction: row;
 }
 
-.navbar .container .links .navber-nav .nav-item {
+.navbar .container .links .navbar-nav .nav-item {
   padding: 20px;
   list-style: none;
 }
 
-.navbar .container .links .navber-nav .nav-item .nav-link {
+.navbar .container .links .navbar-nav .nav-item .nav-link {
   text-decoration: none;
+}
+
+.nav-toggler {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    background-color: #fff;
+  }
+  .navbar-nav .nav-item {
+    display: none;
+  }
+  .nav-toggler {
+    display: block;
+    position: absolute;
+    top: 50px;
+    /* 调整按钮在父容器中的垂直位置 */
+    right: 50px;
+    /* 调整按钮在父容器中的水平位置 */
+    width: 40px;
+    /* 调整按钮的宽度 */
+    height: 4px;
+    /* 调整横线的高度 */
+    background-color: #000;
+    /* 设置按钮的背景颜色为黑色 */
+    cursor: pointer;
+  }
+  .nav-toggler .line {
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    position: absolute;
+    transition: transform 0.3s ease;
+  }
+  .nav-toggler .line:nth-child(1) {
+    top: 0;
+  }
+  .nav-toggler .line:nth-child(2) {
+    top: 12px;
+  }
+  .nav-toggler .line:nth-child(3) {
+    top: 24px;
+  }
+  .links .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .links .navbar-nav .nav-item {
+    padding: 20px;
+    list-style: none;
+  }
+  .links .navbar-nav .nav-item .nav-link {
+    text-decoration: none;
+  }
 }
 
 .banner .bgimg-container {
@@ -281,10 +418,10 @@ h6 {
 }
 
 .offer-cards {
-  background-color: var(--section-bg-color);
   position: relative;
   margin: 0 auto;
-  width: 100%;
+  max-width: 100%;
+  background-color: var(--section-bg-color);
 }
 
 .offer-cards .container {
@@ -345,9 +482,11 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
+  left: 40px;
   text-decoration: none;
-  margin-left: 60%;
-  margin-bottom: 10%;
+  width: 100px;
+  margin-left: 180px;
+  margin-bottom: 10px;
   height: 40px;
   border-radius: 50px;
   background-color: #4f83d1;
@@ -362,32 +501,49 @@ h6 {
   width: 250px;
 }
 
-@media (max-width: 768px) {
-  .offer-card {
-    width: 100%;
-    max-width: 100%;
-    /* 可以去除最大宽度限制 */
+@media screen and (max-width: 1440px) {
+  .offer-cards {
+    max-width: 1320px;
   }
 }
 
-@media (max-width: 480px) {
-  .offer-card {
-    flex-basis: calc(100% - 20px);
-    /* 设置卡片的最小宽度，减去间距 */
+@media screen and (max-width: 1200px) {
+  .offer-cards {
+    max-width: 1140px;
   }
 }
 
-footer {
+@media screen and (max-width: 992px) {
+  .offer-cards {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .offer-cards {
+    max-width: 720px;
+    flex-wrap: wrap;
+    min-height: 1000px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .offer-cards {
+    max-width: 540px;
+  }
+}
+
+footer .container {
   position: relative;
-  background-color: var(--primary-color);
   padding-top: 50px;
   height: 400px;
+  background-color: var(--primary-color);
 }
 
 footer .container .row {
   max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * .5);
-  padding-left: calc(var(--bs-gutter-x) * .5);
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
   padding-bottom: 30px;
   margin-top: var(--bs-gutter-y);
   display: flex;
@@ -470,4 +626,35 @@ footer .container .info-part .service-hours {
 
 footer .container .info-part .service-hours .service-hor {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+  footer .container {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  footer .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  footer .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer .container {
+    max-width: 720px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  footer .container {
+    max-width: 540px;
+  }
 }
