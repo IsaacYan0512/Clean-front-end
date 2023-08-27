@@ -200,7 +200,8 @@ h6 {
 
 @media screen and (max-width: 576px) {
   .info-bar .row {
-    max-width: 540px;
+    max-width: 100%;
+    padding-right: 0;
   }
 }
 
@@ -759,8 +760,6 @@ footer .container .info-part .service-hours .service-hor {
 
 .hero {
   position: relative;
-  max-width: 100%;
-  margin: 0 auto;
 }
 
 .hero .bgimg-container .overlay {
@@ -775,36 +774,6 @@ footer .container .info-part .service-hours .service-hor {
   z-index: -998;
 }
 
-@media screen and (max-width: 1440px) {
-  .hero .bgimg-container .overlay {
-    max-width: 1320px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .hero .bgimg-container .overlay {
-    max-width: 1140px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .hero .bgimg-container .overlay {
-    max-width: 960px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .hero .bgimg-container .overlay {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .hero .bgimg-container .overlay {
-    max-width: 540px;
-  }
-}
-
 .hero .bgimg-container .bgimg {
   background-size: cover;
   background-position: center;
@@ -816,36 +785,6 @@ footer .container .info-part .service-hours .service-hor {
   overflow: hidden;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
-}
-
-@media screen and (max-width: 1440px) {
-  .hero .bgimg-container .bgimg {
-    max-width: 1320px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .hero .bgimg-container .bgimg {
-    max-width: 1140px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .hero .bgimg-container .bgimg {
-    max-width: 960px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .hero .bgimg-container .bgimg {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .hero .bgimg-container .bgimg {
-    max-width: 540px;
-  }
 }
 
 .hero .bgimg-container .img-1 {
@@ -902,6 +841,36 @@ footer .container .info-part .service-hours .service-hor {
   background-color: #7cb8eb;
 }
 
+@media screen and (max-width: 1440px) {
+  .hero .bgimg-container {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero .bgimg-container {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero .bgimg-container {
+    max-width: 992px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero .bgimg-container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero .bgimg-container {
+    max-width: 576px;
+  }
+}
+
 .intro-card {
   min-height: 400px;
   margin: 0 auto;
@@ -955,36 +924,6 @@ footer .container .info-part .service-hours .service-hor {
   background-color: #4f83d1;
   color: #ffffff;
   border-radius: 20px;
-}
-
-@media screen and (max-width: 1440px) {
-  .intro-card .container .card-img {
-    width: 1320px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .intro-card .container .card-img {
-    width: 1140px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .intro-card .container .card-img {
-    width: 960px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .intro-card .container .card-img {
-    width: 720px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .intro-card .container .card-img {
-    width: 540px;
-  }
 }
 
 @media screen and (max-width: 1440px) {
