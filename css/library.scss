@@ -175,21 +175,21 @@ h6 {
     .info {
       padding: 0 20px;
     }
-  }
-  @media screen and (max-width: 1440px) {
-    max-width: 1320px;
-  }
-  @media screen and (max-width: 1200px) {
-      max-width: 1140px;
-  }
-  @media screen and (max-width: 992px) {
-      max-width: 960px
-  }
-  @media screen and (max-width: 768px) {
-      max-width: 720px;
-  }
-  @media screen and (max-width: 576px) {
-      max-width: 540px;
+    @media screen and (max-width: 1440px) {
+      max-width: 1320px;
+    }
+    @media screen and (max-width: 1200px) {
+        max-width: 1140px;
+    }
+    @media screen and (max-width: 992px) {
+        max-width: 960px
+    }
+    @media screen and (max-width: 768px) {
+        max-width: 720px;
+    }
+    @media screen and (max-width: 576px) {
+        max-width: 540px;
+    }
   }
 }
 
@@ -239,6 +239,58 @@ h6 {
 
 
 .navbar {
+  @media screen and (max-width: 992px) {
+    .container{
+        background-color: #fff;
+    }
+    .navbar-nav .nav-item{
+        display: none;
+    }
+    .nav-toggler{
+        display: block;
+        position: absolute;
+        top: 50px; /* 调整按钮在父容器中的垂直位置 */
+        right: 50px; /* 调整按钮在父容器中的水平位置 */
+        width: 40px; /* 调整按钮的宽度 */
+        height: 4px; /* 调整横线的高度 */
+        background-color: #000; /* 设置按钮的背景颜色为黑色 */
+        cursor: pointer;
+
+        .line {
+            width: 100%;
+            height: 4px;
+            background-color: #000;
+            position: absolute;
+            transition: transform 0.3s ease;
+        }
+            
+        .line:nth-child(1) {
+        top: 0;
+        }
+        
+        .line:nth-child(2) {
+        top: 12px;
+        }
+        
+        .line:nth-child(3) {
+        top: 24px;
+        }
+    }
+    
+    .links {
+        .navbar-nav {
+            display: flex;
+            flex-direction: row;
+            .nav-item {
+                padding: 20px;
+                list-style: none;
+                .nav-link {
+                text-decoration: none;
+                }
+            }
+        }
+    }
+  }
   .container {
     display: flex;
     justify-content: space-between;
@@ -302,58 +354,7 @@ h6 {
     display: none;
 }
 
-@media screen and (max-width: 992px) {
-    .container{
-        background-color: #fff;
-    }
-    .navbar-nav .nav-item{
-        display: none;
-    }
-    .nav-toggler{
-        display: block;
-        position: absolute;
-        top: 50px; /* 调整按钮在父容器中的垂直位置 */
-        right: 50px; /* 调整按钮在父容器中的水平位置 */
-        width: 40px; /* 调整按钮的宽度 */
-        height: 4px; /* 调整横线的高度 */
-        background-color: #000; /* 设置按钮的背景颜色为黑色 */
-        cursor: pointer;
 
-        .line {
-            width: 100%;
-            height: 4px;
-            background-color: #000;
-            position: absolute;
-            transition: transform 0.3s ease;
-        }
-            
-        .line:nth-child(1) {
-        top: 0;
-        }
-        
-        .line:nth-child(2) {
-        top: 12px;
-        }
-        
-        .line:nth-child(3) {
-        top: 24px;
-        }
-    }
-    
-    .links {
-        .navbar-nav {
-            display: flex;
-            flex-direction: row;
-            .nav-item {
-                padding: 20px;
-                list-style: none;
-                .nav-link {
-                text-decoration: none;
-                }
-            }
-        }
-    }
-}
 
 
 
@@ -371,6 +372,22 @@ h6 {
     padding-top: 100px;
     padding-bottom: 50px;
     z-index: -999;
+    @media screen and (max-width: 1440px) {
+      max-width: 1320px;
+    }
+    @media screen and (max-width: 1200px) {
+        max-width: 1140px;
+    }
+    @media screen and (max-width: 992px) {
+        max-width: 960px
+        
+    }
+    @media screen and (max-width: 768px) {
+        max-width: 720px;
+    }
+    @media screen and (max-width: 576px) {
+        max-width: 540px;
+    }
     .overlay {
       background-color: var(--secondary-color);
       position: absolute;
@@ -381,7 +398,24 @@ h6 {
       height: 100%;
       opacity: 0.6;
       z-index: -998;
+      @media screen and (max-width: 1440px) {
+        max-width: 1320px;
+      }
+      @media screen and (max-width: 1200px) {
+          max-width: 1140px;
+      }
+      @media screen and (max-width: 992px) {
+          max-width: 960px
+          
+      }
+      @media screen and (max-width: 768px) {
+          max-width: 720px;
+      }
+      @media screen and (max-width: 576px) {
+          max-width: 540px;
+      }
     }
+    
   }
   .container {
     display: flex;
@@ -390,6 +424,22 @@ h6 {
     left: 100px;
     justify-content: start;
     align-items: flex-end;
+    @media screen and (max-width: 1440px) {
+      max-width: 1320px;
+    }
+    @media screen and (max-width: 1200px) {
+        max-width: 1140px;
+    }
+    @media screen and (max-width: 992px) {
+        max-width: 960px
+        
+    }
+    @media screen and (max-width: 768px) {
+        max-width: 720px;
+    }
+    @media screen and (max-width: 576px) {
+        max-width: 540px;
+    }
     .row {
       .title {
         .text-white {

@@ -175,31 +175,31 @@ h6 {
 }
 
 @media screen and (max-width: 1440px) {
-  .info-bar {
+  .info-bar .row {
     max-width: 1320px;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .info-bar {
+  .info-bar .row {
     max-width: 1140px;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .info-bar {
+  .info-bar .row {
     max-width: 960px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .info-bar {
+  .info-bar .row {
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .info-bar {
+  .info-bar .row {
     max-width: 540px;
   }
 }
@@ -246,6 +246,57 @@ h6 {
 @media screen and (max-width: 576px) {
   .logo {
     max-width: 540px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .container {
+    background-color: #fff;
+  }
+  .navbar .navbar-nav .nav-item {
+    display: none;
+  }
+  .navbar .nav-toggler {
+    display: block;
+    position: absolute;
+    top: 50px;
+    /* 调整按钮在父容器中的垂直位置 */
+    right: 50px;
+    /* 调整按钮在父容器中的水平位置 */
+    width: 40px;
+    /* 调整按钮的宽度 */
+    height: 4px;
+    /* 调整横线的高度 */
+    background-color: #000;
+    /* 设置按钮的背景颜色为黑色 */
+    cursor: pointer;
+  }
+  .navbar .nav-toggler .line {
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    position: absolute;
+    transition: transform 0.3s ease;
+  }
+  .navbar .nav-toggler .line:nth-child(1) {
+    top: 0;
+  }
+  .navbar .nav-toggler .line:nth-child(2) {
+    top: 12px;
+  }
+  .navbar .nav-toggler .line:nth-child(3) {
+    top: 24px;
+  }
+  .navbar .links .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar .links .navbar-nav .nav-item {
+    padding: 20px;
+    list-style: none;
+  }
+  .navbar .links .navbar-nav .nav-item .nav-link {
+    text-decoration: none;
   }
 }
 
@@ -328,57 +379,6 @@ h6 {
   display: none;
 }
 
-@media screen and (max-width: 992px) {
-  .container {
-    background-color: #fff;
-  }
-  .navbar-nav .nav-item {
-    display: none;
-  }
-  .nav-toggler {
-    display: block;
-    position: absolute;
-    top: 50px;
-    /* 调整按钮在父容器中的垂直位置 */
-    right: 50px;
-    /* 调整按钮在父容器中的水平位置 */
-    width: 40px;
-    /* 调整按钮的宽度 */
-    height: 4px;
-    /* 调整横线的高度 */
-    background-color: #000;
-    /* 设置按钮的背景颜色为黑色 */
-    cursor: pointer;
-  }
-  .nav-toggler .line {
-    width: 100%;
-    height: 4px;
-    background-color: #000;
-    position: absolute;
-    transition: transform 0.3s ease;
-  }
-  .nav-toggler .line:nth-child(1) {
-    top: 0;
-  }
-  .nav-toggler .line:nth-child(2) {
-    top: 12px;
-  }
-  .nav-toggler .line:nth-child(3) {
-    top: 24px;
-  }
-  .links .navbar-nav {
-    display: flex;
-    flex-direction: row;
-  }
-  .links .navbar-nav .nav-item {
-    padding: 20px;
-    list-style: none;
-  }
-  .links .navbar-nav .nav-item .nav-link {
-    text-decoration: none;
-  }
-}
-
 .banner .bgimg-container {
   background-image: url(../images/high-angle-woman-cleaning-floors.jpg);
   background-repeat: no-repeat;
@@ -390,6 +390,36 @@ h6 {
   padding-top: 100px;
   padding-bottom: 50px;
   z-index: -999;
+}
+
+@media screen and (max-width: 1440px) {
+  .banner .bgimg-container {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner .bgimg-container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner .bgimg-container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner .bgimg-container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner .bgimg-container {
+    max-width: 540px;
+  }
 }
 
 .banner .bgimg-container .overlay {
@@ -404,6 +434,36 @@ h6 {
   z-index: -998;
 }
 
+@media screen and (max-width: 1440px) {
+  .banner .bgimg-container .overlay {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner .bgimg-container .overlay {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner .bgimg-container .overlay {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner .bgimg-container .overlay {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner .bgimg-container .overlay {
+    max-width: 540px;
+  }
+}
+
 .banner .container {
   display: flex;
   position: absolute;
@@ -411,6 +471,36 @@ h6 {
   left: 100px;
   justify-content: start;
   align-items: flex-end;
+}
+
+@media screen and (max-width: 1440px) {
+  .banner .container {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner .container {
+    max-width: 540px;
+  }
 }
 
 .banner .container .row .title .text-white {

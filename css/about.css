@@ -174,6 +174,36 @@ h6 {
   padding: 0 20px;
 }
 
+@media screen and (max-width: 1440px) {
+  .info-bar {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .info-bar {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .info-bar {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info-bar {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .info-bar {
+    max-width: 540px;
+  }
+}
+
 @media screen and (max-width: 522px) {
   .info.wktime {
     display: none;
@@ -216,6 +246,57 @@ h6 {
 @media screen and (max-width: 576px) {
   .logo {
     max-width: 540px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .container {
+    background-color: #fff;
+  }
+  .navbar .navbar-nav .nav-item {
+    display: none;
+  }
+  .navbar .nav-toggler {
+    display: block;
+    position: absolute;
+    top: 50px;
+    /* 调整按钮在父容器中的垂直位置 */
+    right: 50px;
+    /* 调整按钮在父容器中的水平位置 */
+    width: 40px;
+    /* 调整按钮的宽度 */
+    height: 4px;
+    /* 调整横线的高度 */
+    background-color: #000;
+    /* 设置按钮的背景颜色为黑色 */
+    cursor: pointer;
+  }
+  .navbar .nav-toggler .line {
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    position: absolute;
+    transition: transform 0.3s ease;
+  }
+  .navbar .nav-toggler .line:nth-child(1) {
+    top: 0;
+  }
+  .navbar .nav-toggler .line:nth-child(2) {
+    top: 12px;
+  }
+  .navbar .nav-toggler .line:nth-child(3) {
+    top: 24px;
+  }
+  .navbar .links .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar .links .navbar-nav .nav-item {
+    padding: 20px;
+    list-style: none;
+  }
+  .navbar .links .navbar-nav .nav-item .nav-link {
+    text-decoration: none;
   }
 }
 
@@ -294,6 +375,10 @@ h6 {
   text-decoration: none;
 }
 
+.nav-toggler {
+  display: none;
+}
+
 .banner .bgimg-container {
   background-image: url(../images/high-angle-woman-cleaning-floors.jpg);
   background-repeat: no-repeat;
@@ -305,6 +390,36 @@ h6 {
   padding-top: 100px;
   padding-bottom: 50px;
   z-index: -999;
+}
+
+@media screen and (max-width: 1440px) {
+  .banner .bgimg-container {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner .bgimg-container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner .bgimg-container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner .bgimg-container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner .bgimg-container {
+    max-width: 540px;
+  }
 }
 
 .banner .bgimg-container .overlay {
@@ -319,6 +434,36 @@ h6 {
   z-index: -998;
 }
 
+@media screen and (max-width: 1440px) {
+  .banner .bgimg-container .overlay {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner .bgimg-container .overlay {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner .bgimg-container .overlay {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner .bgimg-container .overlay {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner .bgimg-container .overlay {
+    max-width: 540px;
+  }
+}
+
 .banner .container {
   display: flex;
   position: absolute;
@@ -328,12 +473,41 @@ h6 {
   align-items: flex-end;
 }
 
+@media screen and (max-width: 1440px) {
+  .banner .container {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner .container {
+    max-width: 540px;
+  }
+}
+
 .banner .container .row .title .text-white {
   font-size: 60px;
 }
 
 .offer-cards {
-  background-color: var(--section-bg-color);
   position: relative;
   margin: 0 auto;
   max-width: 100%;
@@ -344,6 +518,37 @@ h6 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: var(--section-bg-color);
+}
+
+@media screen and (max-width: 1440px) {
+  .offer-cards .container {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .offer-cards .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .offer-cards .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .offer-cards .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .offer-cards .container {
+    max-width: 540px;
+  }
 }
 
 .offer-cards .container .offer-title {
@@ -354,7 +559,8 @@ h6 {
 .offer-cards .container .cards-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   max-width: 1200px;
   /* 调整最大宽度，根据您的需要 */
   margin: 0 auto;
@@ -397,9 +603,11 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
+  left: 40px;
   text-decoration: none;
-  margin-left: 60%;
-  margin-bottom: 10%;
+  width: 100px;
+  margin-left: 180px;
+  margin-bottom: 10px;
   height: 40px;
   border-radius: 50px;
   background-color: #4f83d1;
@@ -414,56 +622,12 @@ h6 {
   width: 250px;
 }
 
-@media (max-width: 768px) {
-  .offer-card {
-    width: 100%;
-    max-width: 100%;
-    /* 可以去除最大宽度限制 */
-  }
-}
-
-@media (max-width: 480px) {
-  .offer-card {
-    flex-basis: calc(100% - 20px);
-    /* 设置卡片的最小宽度，减去间距 */
-  }
-}
-
-footer {
+footer .container {
   position: relative;
-  background-color: var(--primary-color);
   padding-top: 50px;
   height: 400px;
-}
-
-@media screen and (max-width: 1440px) {
-  footer .container {
-    max-width: 1320px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  footer .container {
-    max-width: 1140px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  footer .container {
-    max-width: 960px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  footer .container {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  footer .container {
-    max-width: 540px;
-  }
+  width: 100%;
+  background-color: var(--primary-color);
 }
 
 footer .container .row {
@@ -552,6 +716,45 @@ footer .container .info-part .service-hours {
 
 footer .container .info-part .service-hours .service-hor {
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+  footer {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  footer {
+    max-width: 1140px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  footer {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    max-width: 720px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  footer {
+    max-width: 540px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  footer {
+    max-width: 360px;
+  }
 }
 
 .section-padding {
