@@ -27,7 +27,7 @@
                 max-width: 768px;
             }
             @media screen and (max-width: 576px) {
-                max-width: 576px;
+                width: 600px;
             }
         }
         .bgimg {
@@ -55,7 +55,7 @@
                 max-width: 768px;
             }
             @media screen and (max-width: 576px) {
-                max-width: 576px;
+                width: 600px;
             }
         }
 
@@ -189,7 +189,7 @@
             min-height: 950px;
         }
         @media screen and (max-width: 576px) {
-            max-width: 540px;
+            max-width: 600px;
         }
     }
 }

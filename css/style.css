@@ -187,7 +187,7 @@ h6 {
 
 @media screen and (max-width: 576px) {
   .info-bar {
-    width: 520px;
+    width: 600px;
   }
 }
 
@@ -221,31 +221,31 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .logo {
-    max-width: 1320px;
+    max-width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .logo {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .logo {
-    max-width: 960px;
+    max-width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .logo {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .logo {
-    max-width: 540px;
+    width: 600px;
   }
 }
 
@@ -309,31 +309,31 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .navbar .container {
-    max-width: 1320px;
+    max-width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .navbar .container {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .navbar .container {
-    max-width: 960px;
+    max-width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .navbar .container {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .navbar .container {
-    max-width: 540px;
+    width: 600px;
   }
 }
 
@@ -394,31 +394,31 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .banner .bgimg-container {
-    max-width: 1320px;
+    max-width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .banner .bgimg-container {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .banner .bgimg-container {
-    max-width: 960px;
+    max-width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .banner .bgimg-container {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .banner .bgimg-container {
-    max-width: 540px;
+    width: 600px;
   }
 }
 
@@ -436,31 +436,31 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .banner .bgimg-container .overlay {
-    max-width: 1320px;
+    max-width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .banner .bgimg-container .overlay {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .banner .bgimg-container .overlay {
-    max-width: 960px;
+    max-width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .banner .bgimg-container .overlay {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .banner .bgimg-container .overlay {
-    max-width: 540px;
+    width: 600px;
   }
 }
 
@@ -523,31 +523,31 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .offer-cards .container {
-    max-width: 1320px;
+    max-width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .offer-cards .container {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .offer-cards .container {
-    max-width: 960px;
+    max-width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .offer-cards .container {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .offer-cards .container {
-    max-width: 540px;
+    width: 600px;
   }
 }
 
@@ -630,6 +630,36 @@ footer .container {
   background-color: var(--primary-color);
 }
 
+@media screen and (max-width: 1440px) {
+  footer .container {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  footer .container {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  footer .container {
+    max-width: 992px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  footer .container {
+    width: 600px;
+  }
+}
+
 footer .container .row {
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -647,7 +677,8 @@ footer .container .row .logo {
 footer .container .row .menu-link {
   display: flex;
   flex-direction: row;
-  padding-left: 40px;
+  flex-wrap: wrap;
+  padding-left: 60px;
   padding-top: 40px;
 }
 
@@ -669,6 +700,7 @@ footer .container .info-part {
   align-items: center;
   flex-direction: row;
   margin: auto 120px;
+  flex-wrap: wrap;
 }
 
 footer .container .info-part .service-intro {
@@ -799,7 +831,7 @@ footer .container .info-part .service-hours .service-hor {
 
 @media screen and (max-width: 576px) {
   .hero .bgimg-container .overlay {
-    max-width: 576px;
+    width: 600px;
   }
 }
 
@@ -842,7 +874,7 @@ footer .container .info-part .service-hours .service-hor {
 
 @media screen and (max-width: 576px) {
   .hero .bgimg-container .bgimg {
-    max-width: 576px;
+    width: 600px;
   }
 }
 
@@ -985,6 +1017,6 @@ footer .container .info-part .service-hours .service-hor {
 
 @media screen and (max-width: 576px) {
   .intro-card .container {
-    max-width: 540px;
+    max-width: 600px;
   }
 }
