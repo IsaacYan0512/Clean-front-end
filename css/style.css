@@ -159,35 +159,36 @@ h6 {
   padding: 15px 0;
   width: 100%;
   box-sizing: border-box;
+  display: flex;
 }
 
 @media screen and (max-width: 1440px) {
   .info-bar {
-    max-width: 1320px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .info-bar {
-    max-width: 1140px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 992px) {
   .info-bar {
-    max-width: 960px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .info-bar {
-    max-width: 720px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 576px) {
   .info-bar {
-    max-width: 100%;
+    width: 100%;
   }
 }
 
