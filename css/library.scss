@@ -165,7 +165,6 @@ h6 {
   padding: 15px 0;
   width: 100%;
   box-sizing: border-box;
-  display: flex;
   @media screen and (max-width: 1440px) {
       width: 100%;
   }
@@ -179,7 +178,7 @@ h6 {
       width: 100%;
   }
   @media screen and (max-width: 576px) {
-      width: 100%;
+      width: 520px;
   }
   .row {
     display: flex;
