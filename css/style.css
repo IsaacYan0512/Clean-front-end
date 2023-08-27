@@ -421,7 +421,6 @@ h6 {
   position: relative;
   margin: 0 auto;
   max-width: 100%;
-  background-color: var(--section-bg-color);
 }
 
 .offer-cards .container {
@@ -429,6 +428,37 @@ h6 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: var(--section-bg-color);
+}
+
+@media screen and (max-width: 1440px) {
+  .offer-cards .container {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .offer-cards .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .offer-cards .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .offer-cards .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .offer-cards .container {
+    max-width: 540px;
+  }
 }
 
 .offer-cards .container .offer-title {
@@ -439,7 +469,8 @@ h6 {
 .offer-cards .container .cards-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   max-width: 1200px;
   /* 调整最大宽度，根据您的需要 */
   margin: 0 auto;
@@ -501,42 +532,11 @@ h6 {
   width: 250px;
 }
 
-@media screen and (max-width: 1440px) {
-  .offer-cards {
-    max-width: 1320px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .offer-cards {
-    max-width: 1140px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .offer-cards {
-    max-width: 960px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .offer-cards {
-    max-width: 720px;
-    flex-wrap: wrap;
-    min-height: 1000px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .offer-cards {
-    max-width: 540px;
-  }
-}
-
 footer .container {
   position: relative;
   padding-top: 50px;
   height: 400px;
+  width: 100%;
   background-color: var(--primary-color);
 }
 
@@ -629,33 +629,41 @@ footer .container .info-part .service-hours .service-hor {
 }
 
 @media screen and (max-width: 1440px) {
-  footer .container {
+  footer {
     max-width: 1320px;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  footer .container {
+  footer {
     max-width: 1140px;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 @media screen and (max-width: 992px) {
-  footer .container {
+  footer {
     max-width: 960px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  footer .container {
+  footer {
     max-width: 720px;
     flex-wrap: wrap;
   }
 }
 
 @media screen and (max-width: 576px) {
-  footer .container {
+  footer {
     max-width: 540px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  footer {
+    max-width: 360px;
   }
 }
 
@@ -898,12 +906,14 @@ footer .container .info-part .service-hours .service-hor {
 @media screen and (max-width: 1200px) {
   .intro-card .container {
     max-width: 1140px;
+    min-height: 520px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .intro-card .container {
     max-width: 960px;
+    min-height: 550px;
   }
 }
 

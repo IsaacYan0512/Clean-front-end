@@ -195,9 +195,11 @@
         }
         @media screen and (max-width: 1200px) {
             max-width: 1140px;
+            min-height: 520px;
         }
         @media screen and (max-width: 992px) {
-            max-width: 960px
+            max-width: 960px;
+            min-height: 550px;
         }
         @media screen and (max-width: 768px) {
             max-width: 720px;
