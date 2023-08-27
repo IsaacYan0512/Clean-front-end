@@ -161,6 +161,36 @@ h6 {
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1440px) {
+  .info-bar {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .info-bar {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .info-bar {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info-bar {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .info-bar {
+    max-width: 100%;
+  }
+}
+
 .info-bar .row {
   display: flex;
   flex-direction: row;
@@ -172,37 +202,6 @@ h6 {
 
 .info-bar .row .info {
   padding: 0 20px;
-}
-
-@media screen and (max-width: 1440px) {
-  .info-bar .row {
-    max-width: 1320px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .info-bar .row {
-    max-width: 1140px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .info-bar .row {
-    max-width: 960px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .info-bar .row {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .info-bar .row {
-    max-width: 100%;
-    padding-right: 0;
-  }
 }
 
 @media screen and (max-width: 522px) {
@@ -774,6 +773,36 @@ footer .container .info-part .service-hours .service-hor {
   z-index: -998;
 }
 
+@media screen and (max-width: 1440px) {
+  .hero .bgimg-container .overlay {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero .bgimg-container .overlay {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero .bgimg-container .overlay {
+    max-width: 992px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero .bgimg-container .overlay {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero .bgimg-container .overlay {
+    max-width: 576px;
+  }
+}
+
 .hero .bgimg-container .bgimg {
   background-size: cover;
   background-position: center;
@@ -785,6 +814,36 @@ footer .container .info-part .service-hours .service-hor {
   overflow: hidden;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 1440px) {
+  .hero .bgimg-container .bgimg {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero .bgimg-container .bgimg {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero .bgimg-container .bgimg {
+    max-width: 992px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero .bgimg-container .bgimg {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero .bgimg-container .bgimg {
+    max-width: 576px;
+  }
 }
 
 .hero .bgimg-container .img-1 {
@@ -839,36 +898,6 @@ footer .container .info-part .service-hours .service-hor {
 
 .hero .bgimg-container .onimg-info .service-btn:hover {
   background-color: #7cb8eb;
-}
-
-@media screen and (max-width: 1440px) {
-  .hero .bgimg-container {
-    max-width: 1440px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .hero .bgimg-container {
-    max-width: 1200px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .hero .bgimg-container {
-    max-width: 992px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .hero .bgimg-container {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .hero .bgimg-container {
-    max-width: 576px;
-  }
 }
 
 .intro-card {

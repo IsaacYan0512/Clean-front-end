@@ -165,6 +165,21 @@ h6 {
   padding: 15px 0;
   width: 100%;
   box-sizing: border-box;
+  @media screen and (max-width: 1440px) {
+      max-width: 1320px;
+  }
+  @media screen and (max-width: 1200px) {
+      max-width: 1140px;
+  }
+  @media screen and (max-width: 992px) {
+      max-width: 960px
+  }
+  @media screen and (max-width: 768px) {
+      max-width: 720px;
+  }
+  @media screen and (max-width: 576px) {
+      max-width: 100%;
+  }
   .row {
     display: flex;
     flex-direction: row;
@@ -174,22 +189,6 @@ h6 {
     font-size: var(--copyright-font-size);
     .info {
       padding: 0 20px;
-    }
-    @media screen and (max-width: 1440px) {
-      max-width: 1320px;
-    }
-    @media screen and (max-width: 1200px) {
-        max-width: 1140px;
-    }
-    @media screen and (max-width: 992px) {
-        max-width: 960px
-    }
-    @media screen and (max-width: 768px) {
-        max-width: 720px;
-    }
-    @media screen and (max-width: 576px) {
-        max-width: 100%;
-        padding-right: 0;
     }
   }
 }
