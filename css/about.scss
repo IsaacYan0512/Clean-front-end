@@ -7,10 +7,11 @@
     padding-bottom: 100px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     .container{
-        max-width: 1320px
+        max-width: 1320px;
     }
     .row{
         --bs-gutter-x: 1.5rem;
@@ -22,6 +23,26 @@
         margin-left: calc(-.5 * var(--bs-gutter-x));
         grid-template-columns: 1fr repeat(2, minmax(auto, 60px)) 1fr; /* 左右均分 */
         gap: 20px; /* 设置子元素间隙 */
+        @media screen and (max-width: 1440px) {
+            max-width: 1320px;
+        }
+        @media screen and (max-width: 1200px) {
+            max-width: 1140px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        @media screen and (max-width: 992px) {
+            max-width: 960px;
+        }
+        @media screen and (max-width: 768px) {
+            max-width: 720px;
+        }
+        @media screen and (max-width: 576px) {
+            max-width: 600px;
+        }
         .pic{
             flex: 0 0 auto;
             width: 500px;
@@ -38,7 +59,7 @@
         .intro{
             padding-left: 200px;
             .feature-block{
-                width: 600px;
+                width: 400px;
                 display: flex;
                 flex-direction: column;
                 justify-content: start;
@@ -75,6 +96,21 @@
     display: flex;
     justify-content: center;
     background-color: var(--section-bg-color);
+    @media screen and (max-width: 1440px) {
+        max-width: 1440px;
+    }
+    @media screen and (max-width: 1200px) {
+        max-width: 1200px;
+    }
+    @media screen and (max-width: 992px) {
+        max-width: 992px
+    }
+    @media screen and (max-width: 768px) {
+        max-width: 768px;
+    }
+    @media screen and (max-width: 576px) {
+        width: 600px;
+    }
     .container{
         .title{
             margin-top: 100px;
@@ -86,6 +122,29 @@
             justify-content: center;
             margin-top: 80px;
             flex-direction: row;
+            @media screen and (max-width: 1440px) {
+                max-width: 1320px;
+            }
+            @media screen and (max-width: 1200px) {
+                max-width: 1140px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .card{
+                    margin-bottom: 40px;
+                }
+            }
+            @media screen and (max-width: 992px) {
+                max-width: 960px;
+            }
+            @media screen and (max-width: 768px) {
+                max-width: 720px;
+            }
+            @media screen and (max-width: 576px) {
+                max-width: 600px;
+            }
             .img-card{
                 flex: 0 0 auto;
                 width: 300px;

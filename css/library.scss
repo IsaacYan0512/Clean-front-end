@@ -347,6 +347,21 @@ h6 {
 
 
 .banner {
+  @media screen and (max-width: 1440px) {
+    max-width: 1440px;
+  }
+  @media screen and (max-width: 1200px) {
+      max-width: 1200px;
+  }
+  @media screen and (max-width: 992px) {
+      max-width: 992px
+  }
+  @media screen and (max-width: 768px) {
+      max-width: 768px;
+  }
+  @media screen and (max-width: 576px) {
+      width: 600px;
+  }
   .bgimg-container {
     background-image: url(../images/high-angle-woman-cleaning-floors.jpg);
     background-repeat: no-repeat;
@@ -358,21 +373,7 @@ h6 {
     padding-top: 100px;
     padding-bottom: 50px;
     z-index: -999;
-    @media screen and (max-width: 1440px) {
-      max-width: 1440px;
-    }
-    @media screen and (max-width: 1200px) {
-        max-width: 1200px;
-    }
-    @media screen and (max-width: 992px) {
-        max-width: 992px
-    }
-    @media screen and (max-width: 768px) {
-        max-width: 768px;
-    }
-    @media screen and (max-width: 576px) {
-        width: 600px;
-    }
+    
     .overlay {
       background-color: var(--secondary-color);
       position: absolute;
@@ -632,26 +633,5 @@ footer {
         }
       }
     }
-  }
-  @media screen and (max-width: 1440px) {
-    max-width: 1320px;
-  }
-  @media screen and (max-width: 1200px) {
-    max-width: 1140px;
-    justify-content: center;
-    align-items: center;
-  }
-  @media screen and (max-width: 992px) {
-    max-width: 960px;
-  }
-  @media screen and (max-width: 768px) {
-    max-width: 720px;
-    flex-wrap: wrap;
-  }
-  @media screen and (max-width: 576px) {
-    max-width: 540px;
-  }
-  @media screen and (max-width: 375px) {
-    max-width: 360px;
   }
 }

@@ -379,6 +379,36 @@ h6 {
   display: none;
 }
 
+@media screen and (max-width: 1440px) {
+  .banner {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner {
+    max-width: 992px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner {
+    width: 600px;
+  }
+}
+
 .banner .bgimg-container {
   background-image: url(../images/high-angle-woman-cleaning-floors.jpg);
   background-repeat: no-repeat;
@@ -390,36 +420,6 @@ h6 {
   padding-top: 100px;
   padding-bottom: 50px;
   z-index: -999;
-}
-
-@media screen and (max-width: 1440px) {
-  .banner .bgimg-container {
-    max-width: 1440px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .banner .bgimg-container {
-    max-width: 1200px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .banner .bgimg-container {
-    max-width: 992px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner .bgimg-container {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .banner .bgimg-container {
-    width: 600px;
-  }
 }
 
 .banner .bgimg-container .overlay {
@@ -748,43 +748,4 @@ footer .container .info-part .service-hours {
 
 footer .container .info-part .service-hours .service-hor {
   margin-bottom: 20px;
-}
-
-@media screen and (max-width: 1440px) {
-  footer {
-    max-width: 1320px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  footer {
-    max-width: 1140px;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  footer {
-    max-width: 960px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  footer {
-    max-width: 720px;
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  footer {
-    max-width: 540px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  footer {
-    max-width: 360px;
-  }
 }

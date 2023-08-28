@@ -161,6 +161,36 @@ h6 {
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1440px) {
+  .info-bar {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .info-bar {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .info-bar {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info-bar {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .info-bar {
+    width: 600px;
+  }
+}
+
 .info-bar .row {
   display: flex;
   flex-direction: row;
@@ -172,36 +202,6 @@ h6 {
 
 .info-bar .row .info {
   padding: 0 20px;
-}
-
-@media screen and (max-width: 1440px) {
-  .info-bar {
-    max-width: 1320px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .info-bar {
-    max-width: 1140px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .info-bar {
-    max-width: 960px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .info-bar {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .info-bar {
-    max-width: 540px;
-  }
 }
 
 @media screen and (max-width: 522px) {
@@ -221,31 +221,31 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .logo {
-    max-width: 1320px;
+    max-width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .logo {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .logo {
-    max-width: 960px;
+    max-width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .logo {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .logo {
-    max-width: 540px;
+    width: 600px;
   }
 }
 
@@ -309,31 +309,31 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .navbar .container {
-    max-width: 1320px;
+    max-width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .navbar .container {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .navbar .container {
-    max-width: 960px;
+    max-width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .navbar .container {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .navbar .container {
-    max-width: 540px;
+    width: 600px;
   }
 }
 
@@ -379,6 +379,36 @@ h6 {
   display: none;
 }
 
+@media screen and (max-width: 1440px) {
+  .banner {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner {
+    max-width: 992px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner {
+    width: 600px;
+  }
+}
+
 .banner .bgimg-container {
   background-image: url(../images/high-angle-woman-cleaning-floors.jpg);
   background-repeat: no-repeat;
@@ -390,36 +420,6 @@ h6 {
   padding-top: 100px;
   padding-bottom: 50px;
   z-index: -999;
-}
-
-@media screen and (max-width: 1440px) {
-  .banner .bgimg-container {
-    max-width: 1320px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .banner .bgimg-container {
-    max-width: 1140px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .banner .bgimg-container {
-    max-width: 960px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner .bgimg-container {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .banner .bgimg-container {
-    max-width: 540px;
-  }
 }
 
 .banner .bgimg-container .overlay {
@@ -436,31 +436,31 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .banner .bgimg-container .overlay {
-    max-width: 1320px;
+    max-width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .banner .bgimg-container .overlay {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .banner .bgimg-container .overlay {
-    max-width: 960px;
+    max-width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .banner .bgimg-container .overlay {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .banner .bgimg-container .overlay {
-    max-width: 540px;
+    width: 600px;
   }
 }
 
@@ -523,31 +523,31 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .offer-cards .container {
-    max-width: 1320px;
+    max-width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .offer-cards .container {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .offer-cards .container {
-    max-width: 960px;
+    max-width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .offer-cards .container {
-    max-width: 720px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .offer-cards .container {
-    max-width: 540px;
+    width: 600px;
   }
 }
 
@@ -630,6 +630,36 @@ footer .container {
   background-color: var(--primary-color);
 }
 
+@media screen and (max-width: 1440px) {
+  footer .container {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  footer .container {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  footer .container {
+    max-width: 992px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  footer .container {
+    width: 600px;
+  }
+}
+
 footer .container .row {
   max-width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -647,7 +677,8 @@ footer .container .row .logo {
 footer .container .row .menu-link {
   display: flex;
   flex-direction: row;
-  padding-left: 40px;
+  flex-wrap: wrap;
+  padding-left: 60px;
   padding-top: 40px;
 }
 
@@ -669,6 +700,7 @@ footer .container .info-part {
   align-items: center;
   flex-direction: row;
   margin: auto 120px;
+  flex-wrap: wrap;
 }
 
 footer .container .info-part .service-intro {
@@ -718,50 +750,12 @@ footer .container .info-part .service-hours .service-hor {
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1440px) {
-  footer {
-    max-width: 1320px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  footer {
-    max-width: 1140px;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  footer {
-    max-width: 960px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  footer {
-    max-width: 720px;
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  footer {
-    max-width: 540px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  footer {
-    max-width: 360px;
-  }
-}
-
 .section-padding {
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center;
 }
@@ -784,6 +778,41 @@ footer .container .info-part .service-hours .service-hor {
   /* 设置子元素间隙 */
 }
 
+@media screen and (max-width: 1440px) {
+  .section-padding .row {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .section-padding .row {
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section-padding .row {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-padding .row {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section-padding .row {
+    max-width: 600px;
+  }
+}
+
 .section-padding .row .pic {
   flex: 0 0 auto;
   width: 500px;
@@ -803,7 +832,7 @@ footer .container .info-part .service-hours .service-hor {
 }
 
 .section-padding .row .intro .feature-block {
-  width: 600px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -840,6 +869,36 @@ footer .container .info-part .service-hours .service-hor {
   background-color: var(--section-bg-color);
 }
 
+@media screen and (max-width: 1440px) {
+  .people {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .people {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .people {
+    max-width: 992px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .people {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .people {
+    width: 600px;
+  }
+}
+
 .people .container .title {
   margin-top: 100px;
   margin-left: 100px;
@@ -850,6 +909,44 @@ footer .container .info-part .service-hours .service-hor {
   justify-content: center;
   margin-top: 80px;
   flex-direction: row;
+}
+
+@media screen and (max-width: 1440px) {
+  .people .container .cards {
+    max-width: 1320px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .people .container .cards {
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .people .container .cards .card {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .people .container .cards {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .people .container .cards {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .people .container .cards {
+    max-width: 600px;
+  }
 }
 
 .people .container .cards .img-card {
