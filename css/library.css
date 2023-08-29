@@ -493,7 +493,7 @@ h6 {
 
 @media screen and (max-width: 768px) {
   .banner .container {
-    max-width: 720px;
+    width: 792px;
   }
 }
 
@@ -541,7 +541,7 @@ h6 {
 
 @media screen and (max-width: 768px) {
   .offer-cards .container {
-    max-width: 768px;
+    width: 792px;
   }
 }
 
@@ -650,7 +650,7 @@ footer .container {
 
 @media screen and (max-width: 768px) {
   footer .container {
-    max-width: 768px;
+    width: 792px;
   }
 }
 
