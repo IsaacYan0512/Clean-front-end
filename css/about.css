@@ -473,36 +473,6 @@ h6 {
   align-items: flex-end;
 }
 
-@media screen and (max-width: 1440px) {
-  .banner .container {
-    max-width: 1320px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .banner .container {
-    max-width: 1140px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .banner .container {
-    max-width: 960px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner .container {
-    width: 792px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .banner .container {
-    max-width: 540px;
-  }
-}
-
 .banner .container .row .title .text-white {
   font-size: 60px;
 }
@@ -780,13 +750,13 @@ footer .container .info-part .service-hours .service-hor {
 
 @media screen and (max-width: 1440px) {
   .section-padding .row {
-    max-width: 1320px;
+    width: 1320px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .section-padding .row {
-    max-width: 1140px;
+    width: 1140px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -797,38 +767,37 @@ footer .container .info-part .service-hours .service-hor {
 
 @media screen and (max-width: 992px) {
   .section-padding .row {
-    max-width: 960px;
+    width: 960px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .section-padding .row {
-    max-width: 720px;
+    width: 720px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .section-padding .row {
-    max-width: 600px;
+    width: 600px;
   }
 }
 
 .section-padding .row .pic {
   flex: 0 0 auto;
   width: 500px;
-  padding-left: 80px;
+  padding-left: 120px;
 }
 
 .section-padding .row .pic .feature-img {
   border-radius: var(--border-radius-medium);
   width: 100%;
-  height: 100%;
   vertical-align: middle;
   max-width: none;
 }
 
 .section-padding .row .intro {
-  padding-left: 200px;
+  padding-left: 150px;
 }
 
 .section-padding .row .intro .feature-block {
@@ -871,25 +840,25 @@ footer .container .info-part .service-hours .service-hor {
 
 @media screen and (max-width: 1440px) {
   .people {
-    max-width: 1440px;
+    width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .people {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .people {
-    max-width: 992px;
+    width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .people {
-    max-width: 768px;
+    width: 768px;
   }
 }
 
