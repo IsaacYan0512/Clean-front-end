@@ -1,197 +1,194 @@
 @import "library.scss";
 
-
-.hero{
-    position: relative;
-    .bgimg-container{
-        .overlay{
-            background-color: var(--secondary-color);
-            position: absolute;
-            top: 0;
-            left: 0;
-            pointer-events: none;
-            width: 100%;
-            height: 100%;
-            opacity: 0.6;
-            z-index: -998;
-            @media screen and (max-width: 1440px) {
-                max-width: 1440px;
-            }
-            @media screen and (max-width: 1200px) {
-                max-width: 1200px;
-            }
-            @media screen and (max-width: 992px) {
-                max-width: 992px
-            }
-            @media screen and (max-width: 768px) {
-                max-width: 768px;
-            }
-            @media screen and (max-width: 576px) {
-                width: 600px;
-            }
-        }
-        .bgimg {
-            // background-image: url(../images/slideshow/afro-woman-holding-bucket-with-cleaning-items.jpg);
-            background-size: cover; 
-            background-position: center; 
-            background-repeat: no-repeat; 
-            width: 100%;
-            min-height: 800px;
-            z-index: -999;
-            position: relative;
-            overflow: hidden;
-            opacity: 0;
-            transition: opacity 0.5s ease-in-out;
-            @media screen and (max-width: 1440px) {
-                max-width: 1440px;
-            }
-            @media screen and (max-width: 1200px) {
-                max-width: 1200px;
-            }
-            @media screen and (max-width: 992px) {
-                max-width: 992px
-            }
-            @media screen and (max-width: 768px) {
-                max-width: 768px;
-            }
-            @media screen and (max-width: 576px) {
-                width: 600px;
-            }
-        }
-
-        .img-1{
-            background-image: url(../images/slideshow/afro-woman-cleaning-window-with-rag-home.jpg);
-        }
-
-
-        .img-2{
-            background-image: url(../images/slideshow/afro-woman-holding-bucket-with-cleaning-items.jpg);
-        }
-
-
-        .img-3{
-            background-image: url(../images/slideshow/unrecognizable-cleaner-walking-into-hotel-room-with-tools-detergents.jpg);
-        }
-
-        .onimg-info{
-            position: absolute;
-            top: 50%; 
-            left: 60%; 
-            transform: translate(-50%, -50%); 
-
-            .headline{
-                font-size: 4vw;
-                padding-bottom: 15px;
-            }
-
-            .intro-btn{
-                display: inline-block;
-                padding: 1.5vw 3vw;
-                border-radius: 50vw; 
-                background-color: #4f83d1; 
-                color: white; 
-                text-align: center;
-                text-decoration: none;
-                transition: background-color 0.3s ease; 
-            }
-            .intro-btn:hover{
-                background-color: #7cb8eb; 
-            }
-
-            .service-btn{
-                display: inline-block;
-                padding: 1.5vw 3vw;
-                border-radius: 50vw; 
-                background-color: #4f83d1; 
-                color: white; 
-                text-align: center;
-                text-decoration: none;
-                transition: background-color 0.3s ;
-            }
-            .service-btn:hover{
-                background-color: #7cb8eb; 
-            }
-            
-        }
+.hero {
+  position: relative;
+  .bgimg-container {
+    .overlay {
+      background-color: var(--secondary-color);
+      position: absolute;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      width: 100%;
+      height: 100%;
+      opacity: 0.6;
+      z-index: -998;
+      @media screen and (max-width: 1440px) {
+        width: 1440px;
+      }
+      @media screen and (max-width: 1200px) {
+        width: 1200px;
+      }
+      @media screen and (max-width: 992px) {
+        width: 992px;
+      }
+      @media screen and (max-width: 768px) {
+        width: 792px;
+      }
+      @media screen and (max-width: 576px) {
+        width: 600px;
+      }
     }
-}
+    .bgimg {
+      // background-image: url(../images/slideshow/afro-woman-holding-bucket-with-cleaning-items.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      min-height: 800px;
+      z-index: -999;
+      position: relative;
+      overflow: hidden;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      @media screen and (max-width: 1440px) {
+        width: 1440px;
+      }
+      @media screen and (max-width: 1200px) {
+        width: 1200px;
+      }
+      @media screen and (max-width: 992px) {
+        width: 992px;
+      }
+      @media screen and (max-width: 768px) {
+        width: 792px;
+      }
+      @media screen and (max-width: 576px) {
+        width: 600px;
+      }
+    }
 
+    .img-1 {
+      background-image: url(../images/slideshow/afro-woman-cleaning-window-with-rag-home.jpg);
+    }
+
+    .img-2 {
+      background-image: url(../images/slideshow/afro-woman-holding-bucket-with-cleaning-items.jpg);
+    }
+
+    .img-3 {
+      background-image: url(../images/slideshow/unrecognizable-cleaner-walking-into-hotel-room-with-tools-detergents.jpg);
+    }
+
+    .onimg-info {
+      position: absolute;
+      top: 50%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+
+      .headline {
+        font-size: 4vw;
+        padding-bottom: 15px;
+      }
+
+      .intro-btn {
+        display: inline-block;
+        padding: 1.5vw 3vw;
+        border-radius: 50vw;
+        background-color: #4f83d1;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+      }
+      .intro-btn:hover {
+        background-color: #7cb8eb;
+      }
+
+      .service-btn {
+        display: inline-block;
+        padding: 1.5vw 3vw;
+        border-radius: 50vw;
+        background-color: #4f83d1;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+      .service-btn:hover {
+        background-color: #7cb8eb;
+      }
+    }
+  }
+}
 
 .intro-card {
-    // max-width: 1200px;
-    min-height: 400px;
-    margin: 0 auto;
-    position: relative;
-    .container{
+  // max-width: 1200px;
+  min-height: 400px;
+  margin: 0 auto;
+  position: relative;
+  .container {
+    display: flex;
+    flex-direction: row;
+    height: 370px;
+    .card-text {
+      .service {
         display: flex;
-        flex-direction: row;
-        height: 370px;
-        .card-text{
+        justify-content: start;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-right: 100px;
+      }
 
-            .service{
-                display: flex;
-                justify-content: start;
-                align-items: center;
-                margin-top: 40px;
-                margin-left: 100px;
-                margin-right: 100px;
-            }
+      .para1 {
+        max-width: 100%;
+        margin: 0 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        margin-right: 40px;
+      }
 
-            .para1{
-                max-width: 100%;
-                margin: 0 20px;
-                margin-top: 40px;
-                margin-bottom: 20px;
-                margin-left: 100px;
-                margin-right: 40px;
-            }
-
-            .para2{
-                max-width: 100%;
-                margin: 0 20px;
-                margin-top: 40px;
-                margin-left: 100px;
-                margin-right: 40px;
-            }
-        }
-
-        .card-img{
-            .two-pepo{
-                width: 600px;
-                position: relative;
-            }
-            .contact{
-                display: inline-block;
-                flex-direction: column;
-                position: relative;
-                bottom: 155px;
-                left: 350px;
-                padding: 40px 40px;
-                background-color: #4f83d1;
-                color: #ffffff;
-                border-radius: 20px;
-            }
-        }
-        @media screen and (max-width: 1440px) {
-            max-width: 1320px;
-        }
-        @media screen and (max-width: 1200px) {
-            max-width: 1140px;
-            min-height: 520px;
-        }
-        @media screen and (max-width: 992px) {
-            max-width: 960px;
-            min-height: 550px;
-        }
-        @media screen and (max-width: 768px) {
-            max-width: 720px;
-            flex-wrap: wrap;
-            min-height: 950px;
-        }
-        @media screen and (max-width: 576px) {
-            max-width: 600px;
-        }
+      .para2 {
+        max-width: 100%;
+        margin: 0 20px;
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-right: 40px;
+      }
     }
+
+    .card-img {
+      .two-pepo {
+        width: 600px;
+        position: relative;
+      }
+      .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        bottom: 165px;
+        left: 220px;
+        padding: 40px 40px;
+        background-color: #4f83d1;
+        color: #ffffff;
+        border-radius: 20px;
+        width: 140px;
+        height: 80px;
+      }
+    }
+    @media screen and (max-width: 1440px) {
+      max-width: 1320px;
+    }
+    @media screen and (max-width: 1200px) {
+      max-width: 1140px;
+      min-height: 520px;
+    }
+    @media screen and (max-width: 992px) {
+      max-width: 960px;
+      flex-wrap: wrap;
+      min-height: 700px;
+    }
+    @media screen and (max-width: 768px) {
+      max-width: 720px;
+      min-height: 800px;
+    }
+    @media screen and (max-width: 576px) {
+      max-width: 600px;
+      min-height: 920px;
+    }
+  }
 }
-
-

@@ -163,25 +163,25 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .info-bar {
-    width: 100%;
+    width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .info-bar {
-    width: 100%;
+    width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .info-bar {
-    width: 100%;
+    width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .info-bar {
-    width: 100%;
+    width: 792px;
   }
 }
 
@@ -221,25 +221,25 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .logo {
-    max-width: 1440px;
+    width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .logo {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .logo {
-    max-width: 992px;
+    width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .logo {
-    max-width: 768px;
+    width: 792px;
   }
 }
 
@@ -309,25 +309,25 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .navbar .container {
-    max-width: 1440px;
+    width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .navbar .container {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .navbar .container {
-    max-width: 992px;
+    width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .navbar .container {
-    max-width: 768px;
+    width: 792px;
   }
 }
 
@@ -379,36 +379,6 @@ h6 {
   display: none;
 }
 
-@media screen and (max-width: 1440px) {
-  .banner {
-    max-width: 1440px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .banner {
-    max-width: 1200px;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .banner {
-    max-width: 992px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .banner {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .banner {
-    width: 600px;
-  }
-}
-
 .banner .bgimg-container {
   background-image: url(../images/high-angle-woman-cleaning-floors.jpg);
   background-repeat: no-repeat;
@@ -420,6 +390,36 @@ h6 {
   padding-top: 100px;
   padding-bottom: 50px;
   z-index: -999;
+}
+
+@media screen and (max-width: 1440px) {
+  .banner .bgimg-container {
+    width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner .bgimg-container {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner .bgimg-container {
+    width: 992px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner .bgimg-container {
+    width: 792px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner .bgimg-container {
+    width: 600px;
+  }
 }
 
 .banner .bgimg-container .overlay {
@@ -436,25 +436,25 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .banner .bgimg-container .overlay {
-    max-width: 1440px;
+    width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .banner .bgimg-container .overlay {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .banner .bgimg-container .overlay {
-    max-width: 992px;
+    width: 992px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .banner .bgimg-container .overlay {
-    max-width: 768px;
+    width: 792px;
   }
 }
 
@@ -493,19 +493,19 @@ h6 {
 
 @media screen and (max-width: 1440px) {
   .offer-cards .container {
-    max-width: 1440px;
+    width: 1440px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .offer-cards .container {
-    max-width: 1200px;
+    width: 1200px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .offer-cards .container {
-    max-width: 992px;
+    width: 992px;
   }
 }
 
@@ -614,7 +614,13 @@ footer .container {
 
 @media screen and (max-width: 992px) {
   footer .container {
-    max-width: 992px;
+    width: 992px;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  footer .container {
+    height: 600px;
   }
 }
 
@@ -627,6 +633,7 @@ footer .container {
 @media screen and (max-width: 576px) {
   footer .container {
     width: 600px;
+    height: 700px;
   }
 }
 
@@ -642,6 +649,7 @@ footer .container .row {
 
 footer .container .row .logo {
   margin-left: 60px;
+  width: 70px;
 }
 
 footer .container .row .menu-link {
@@ -670,7 +678,14 @@ footer .container .info-part {
   align-items: center;
   flex-direction: row;
   margin: auto 120px;
-  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 854px) {
+  footer .container .info-part {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 footer .container .info-part .service-intro {

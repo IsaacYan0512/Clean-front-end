@@ -24,7 +24,7 @@
         grid-template-columns: 1fr repeat(2, minmax(auto, 60px)) 1fr; /* 左右均分 */
         gap: 20px; /* 设置子元素间隙 */
         @media screen and (max-width: 1440px) {
-            width: 1320px;
+            max-width: 1320px;
         }
         @media screen and (max-width: 1200px) {
             width: 1140px;
@@ -96,10 +96,10 @@
     justify-content: center;
     background-color: var(--section-bg-color);
     @media screen and (max-width: 1440px) {
-        width: 1440px;
+        max-width: 1440px;
     }
     @media screen and (max-width: 1200px) {
-        width: 1200px;
+        max-width: 1140px;
     }
     @media screen and (max-width: 992px) {
         width: 992px
@@ -110,12 +110,12 @@
     @media screen and (max-width: 576px) {
         width: 600px;
     }
+    
     .container{
         .title{
             margin-top: 100px;
             margin-left: 100px;
         }
-
         .cards{
             display: flex;
             justify-content: center;
