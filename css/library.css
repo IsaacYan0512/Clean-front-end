@@ -329,17 +329,20 @@ h6 {
   .navbar .container {
     background-color: #fff;
   }
+  .navbar .container .main-brand .slogan {
+    color: var(--primary-color);
+  }
   .navbar .container .nav-toggler {
     background: transparent;
     border: none;
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    top: 80px;
+    top: 40px;
     right: 40px;
     width: 30px;
     /* 调整按钮的宽度 */
@@ -376,20 +379,20 @@ h6 {
     /* 添加动画效果 */
   }
   .navbar .container.expanded .main-brand {
-    align-items: normal;
+    height: 80px;
   }
   .navbar .container.expanded .links.active {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    right: 800px;
+    right: 80%;
     top: 250px;
   }
   .navbar .container.expanded .links.active .navbar-nav {
     flex-direction: column;
   }
   .navbar .container.expanded .links.active .navbar-nav .nav-link {
-    color: var(--bs-cyan);
+    color: var(--p-color);
   }
 }
 

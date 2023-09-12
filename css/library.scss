@@ -286,17 +286,22 @@ h6 {
   @media screen and (max-width: 992px) {
     .container {
       background-color: #fff;
+      .main-brand{
+        .slogan{
+          color: var(--primary-color);
+        }
+      }
       .nav-toggler {
         background: transparent;
         border: none;
-        position: fixed;
+        position: absolute;
         cursor: pointer;
         padding: 0;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        top: 80px;
+        top: 40px;
         right: 40px;
         width: 30px; /* 调整按钮的宽度 */
         height: 30px; /* 调整按钮的高度 */
@@ -330,18 +335,18 @@ h6 {
       height: 600px; /* 设置扩展后的最大高度 */
       transition: height 0.5s ease-in-out; /* 添加动画效果 */
       .main-brand{
-        align-items: normal;
+        height: 80px;
       }
       .links.active{
         display: flex;
         flex-wrap: wrap;
         position: relative;
-        right: 800px;
+        right: 80%;
         top: 250px;
         .navbar-nav{
           flex-direction: column;
           .nav-link{
-            color: var(--bs-cyan);
+            color: var(--p-color);
           }
         }
       }
