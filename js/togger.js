@@ -1,27 +1,16 @@
-$(document).ready(function () {
-    // 找到导航按钮和导航链接容器
-    let navToggler = $('#nav-toggler');
-    let navbarLinks = $('#navbar-links');
-  
-    // 导航按钮点击事件
-    navToggler.click(function () {
-      console.log('Button Clicked'); // 添加这行
-      // 切换按钮的active类
-      navToggler.toggleClass('active');
-  
-      // 显示或隐藏导航链接容器
-      navbarLinks.slideToggle();
-    });
-  
-    // 在窗口大小改变时，检查是否要重新显示导航链接容器
-    $(window).resize(function () {
-      let windowWidth = $(window).width();
-      if (windowWidth > 992) {
-        navToggler.removeClass('active');
-        navbarLinks.css('display', 'flex');
+document.addEventListener("DOMContentLoaded", function () {
+  let navToggler = document.getElementById("nav-toggler");
+  let navbarLinks = document.getElementById("navbar-links");
+  let container = document.querySelector(".container"); // 获取 .navbar 元素
+
+  navToggler.addEventListener("click", function () {
+      navbarLinks.classList.toggle("active");
+
+      // 检查链接是否处于 active 状态
+      if (navbarLinks.classList.contains("active")) {
+        container.classList.add("expanded"); // 添加扩展高度的样式
       } else {
-        navbarLinks.css('display', 'none');
+        container.classList.remove("expanded"); // 移除扩展高度的样式
       }
-    });
   });
-  
+});
